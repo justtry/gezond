@@ -1,0 +1,22 @@
+name        = Gezond site
+description = Custom main theme
+core        = 7.x
+
+stylesheets[all][] = css/styles.css
+
+
+scripts[] = js/lib/combobox.js
+scripts[] = js/lib/jquery.fancybox.js
+scripts[] = js/lib/jquery.uniform.js
+scripts[] = js/js.js
+
+
+
+regions[top_navigation] = Top Navigation
+regions[top_social] = Top Social icons
+regions[header] = Header
+regions[content] = Content
+regions[column_left] = Column left
+regions[column_center] = Column center
+regions[column_right] = Column right
+regions[footer] = Footer
